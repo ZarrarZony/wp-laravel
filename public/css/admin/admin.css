@@ -1,0 +1,43 @@
+.kc_img_div {
+    background: #000;
+    min-height: 120px;
+    padding: 5px;
+    max-height: 380px;
+    overflow-y: auto;
+}
+.kc_img_div .no_img {
+    color: #fff;
+    display: none;
+}
+.single_img {
+    width: 160px;
+    height: 160px;
+    background: #eee;
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 5px;
+}
+.single_img .img_del {
+    position: absolute;
+    background: #a91414;
+    border-radius: 55px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    color: #FFF;
+    padding-top: 2px;
+    right: 0px;
+    top: 0px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.single_img .img_kc img {
+    display: inline-block;
+    max-height: 160px;
+}
+
+img {
+    vertical-align: middle;
+}
